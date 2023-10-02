@@ -1,4 +1,4 @@
-## Note 8
+## Note 9
 
 slots:
-if value inside the Modal tags is empty then the value inside the slot tags will be used.
+if value inside the Modal tags is not empty it will be used.
