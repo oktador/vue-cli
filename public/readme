@@ -1,3 +1,4 @@
-## Note 11
+## Note 12
 
-multiple modals
+teleport - embed template in another part of html
+added a new div#modals in index.html and #modals in style.css
