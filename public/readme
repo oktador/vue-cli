@@ -1,6 +1,4 @@
-## Note 7
+## Note 8
 
-custom event: @modalClose
-@click.self triggered only if self clicked
-@click.alt triggered only if clicked with alt key
-etc
+slots:
+if value inside the Modal tags is empty then the value inside the slot tags will be used.
