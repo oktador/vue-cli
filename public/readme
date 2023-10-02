@@ -1,4 +1,4 @@
-## Note 3
+## Note 4
 
-Using references:
-focusing to input when button clicked
+create a different component and use it:
+create Modal.vue
