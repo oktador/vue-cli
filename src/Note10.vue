@@ -3,9 +3,13 @@
   <br />
   <button @click="onButtonClick">Click For Open The Modal</button>
   <div v-if="showModal">
-    <Modal theme="sale" @modalClose="onModalClose">
+    <Modal theme="" @modalClose="onModalClose">
       <h1>{{ modalTitle }}</h1>
       <p>{{ modalContent }}</p>
+      <template v-slot:links>
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+      </template>
     </Modal>
   </div>
 </template>
@@ -14,13 +18,13 @@
 import Modal from "./components/Modal.vue";
 
 export default {
-  name: "Note9",
+  name: "Note10",
   components: {
     Modal,
   },
   data() {
     return {
-      title: "Note 9",
+      title: "Note 10",
       modalTitle: "Modal Title as parameter",
       modalContent: "Modal Content as parameter",
       showModal: false,

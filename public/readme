@@ -1,4 +1,4 @@
-## Note 9
+## Note 10
 
-slots:
-if value inside the Modal tags is not empty it will be used.
+slots
+using templates - named slot
