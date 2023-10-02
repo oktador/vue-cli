@@ -1,20 +1,19 @@
 <template>
   <h1 class="title">{{ title }}</h1>
-  <!--Modal title="Modal Title as parameter" content="Modal Content as parameter" /-->
-  <Modal :title="modalTitle" :content="modalContent" />
+  <Modal :title="modalTitle" :content="modalContent" theme="sale" />
 </template>
 
 <script>
 import Modal from "./components/Modal.vue";
 
 export default {
-  name: "Note5",
+  name: "Note6",
   components: {
     Modal,
   },
   data() {
     return {
-      title: "Note 5",
+      title: "Note 6",
       modalTitle: "Modal Title as parameter",
       modalContent: "Modal Content as parameter",
     };

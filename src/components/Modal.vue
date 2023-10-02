@@ -1,6 +1,6 @@
 <template>
   <div class="backdrop">
-    <div class="modal">
+    <div class="modal" :class="{ sale: theme === 'sale' }">
       <h1>{{ title }}</h1>
       <p>{{ content }}</p>
     </div>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  props: ["title", "content"],
+  props: ["title", "content", "theme"],
 };
 </script>
 
@@ -39,5 +39,14 @@ export default {
 
 .modal p {
   font-style: normal;
+}
+
+.modal.sale {
+  background-color: crimson;
+  color: white;
+}
+
+.modal.sale h1 {
+  color: white;
 }
 </style>

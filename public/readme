@@ -1,3 +1,4 @@
-## Note 5
+## Note 6
 
-send parameters to component
+adding customizable class in a component:
+when Modal theme=sale then a different css applies
