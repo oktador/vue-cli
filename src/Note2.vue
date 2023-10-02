@@ -4,16 +4,11 @@
 
 <script>
 export default {
-  name: "Note1",
+  name: "Note2",
   data() {
     return {
-      title: "Note 1",
+      title: "Note 2",
     };
   },
 };
 </script>
-<style scoped>
-h1 {
-  color: red;
-}
-</style>
