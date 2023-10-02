@@ -1,4 +1,6 @@
-## Note 6
+## Note 7
 
-adding customizable class in a component:
-when Modal theme=sale then a different css applies
+custom event: @modalClose
+@click.self triggered only if self clicked
+@click.alt triggered only if clicked with alt key
+etc
